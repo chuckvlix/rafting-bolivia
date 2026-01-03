@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@theme {
+  /* Fuentes */
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  /* Paleta de colores */
+  --color-primary: #13ec5b;
+  --color-background-light: #f6f8f6;
+  --color-background-dark: #102216;
+  --color-text-main: #111813;
+
+  /* Animaciones */
+  --keyframes-fade-in-up: {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  };
+  --animation-fade-in-up: fade-in-up 0.5s ease-out forwards;
+}
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+}
