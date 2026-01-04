@@ -1,0 +1,68 @@
+{
+  "company": {
+    "name": "Rafting Bolivia",
+    "slogan": "Aventura Extrema en los Andes"
+  },
+  "features": [
+    {
+      "id": 1,
+      "icon": "verified_user",
+      "title": "Seguridad Primero",
+      "desc": "Equipos certificados internacionalmente y protocolos rigurosos."
+    },
+    {
+      "id": 2,
+      "icon": "groups",
+      "title": "Guías Expertos",
+      "desc": "Más de 10 años navegando los ríos más desafiantes de Bolivia."
+    },
+    {
+      "id": 3,
+      "icon": "landscape",
+      "title": "Paisajes Únicos",
+      "desc": "Acceso exclusivo a cañones vírgenes desde el corazón del río."
+    }
+  ],
+  "destinations": [
+    {
+      "id": "pilcomayo",
+      "name": "Río Pilcomayo",
+      "price": 80,
+      "currency": "USD",
+      "intensity": "Experto",
+      "intensityIcon": "bolt",
+      "duration": "6 horas",
+      "difficulty": "Difícil",
+      "description": "Aguas salvajes para buscadores de adrenalina. Rápidos clase III y IV.",
+      "image": "https://images.unsplash.com/photo-1517153128070-9c04d39f596e?q=80&w=800"
+    },
+    {
+      "id": "rio-grande",
+      "name": "Río Grande",
+      "price": 55,
+      "currency": "USD",
+      "intensity": "Familiar",
+      "intensityIcon": "family_restroom",
+      "duration": "4 horas",
+      "difficulty": "Intermedio",
+      "description": "La aventura perfecta para iniciarse. Ideal para familias y diversión segura.",
+      "image": "https://images.unsplash.com/photo-1599059021750-82716ae2b661?q=80&w=800"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Carlos M.",
+      "text": "Una experiencia increíble en el Pilcomayo. Guías muy profesionales.",
+      "rating": 5,
+      "avatar": "https://i.pravatar.cc/150?u=carlos"
+    },
+    {
+      "id": 2,
+      "name": "Ana P.",
+      "text": "Fuimos en familia al Río Grande y fue inolvidable. Muy seguro.",
+      "rating": 5,
+      "avatar": "https://i.pravatar.cc/150?u=ana"
+    }
+  ]
+}
