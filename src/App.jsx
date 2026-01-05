@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Features from "./components/Features"
 import Destinations from "./components/Destinations"
+import Testimonials from "./components/Testimonials"
 
 function App() {
   const [data, setData] = useState(null)
@@ -37,6 +38,7 @@ function App() {
         <Hero />
         <Features items={data.features} />
         <Destinations items={data.destinations} />
+        <Testimonials items={data.testimonials} />
       </main>
     </div>
   )

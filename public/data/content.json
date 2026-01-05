@@ -52,17 +52,17 @@
   "testimonials": [
     {
       "id": 1,
-      "name": "Carlos M.",
+      "name": "Gabriela M.",
       "text": "Una experiencia increíble en el Pilcomayo. Guías muy profesionales.",
       "rating": 5,
-      "avatar": "https://i.pravatar.cc/150?u=carlos"
+      "avatar": "https://i.pravatar.cc/150?u=gaby"
     },
     {
       "id": 2,
-      "name": "Ana P.",
+      "name": "Bryan C.",
       "text": "Fuimos en familia al Río Grande y fue inolvidable. Muy seguro.",
-      "rating": 5,
-      "avatar": "https://i.pravatar.cc/150?u=ana"
+      "rating": 4,
+      "avatar": "https://i.pravatar.cc/150?u=pedro"
     }
   ]
 }
