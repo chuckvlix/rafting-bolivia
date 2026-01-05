@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Features from "./components/Features"
+import Destinations from "./components/Destinations"
 
 function App() {
   const [data, setData] = useState(null)
@@ -35,6 +36,7 @@ function App() {
       <main>
         <Hero />
         <Features items={data.features} />
+        <Destinations items={data.destinations} />
       </main>
     </div>
   )
