@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar"
 import Features from "./components/Features"
 import Destinations from "./components/Destinations"
 import Testimonials from "./components/Testimonials"
+import FinalCTA from "./components/FinalCTA"
+import Footer from "./components/Footer"
 
 function App() {
   const [data, setData] = useState(null)
@@ -39,6 +41,8 @@ function App() {
         <Features items={data.features} />
         <Destinations items={data.destinations} />
         <Testimonials items={data.testimonials} />
+        <FinalCTA />
+        <Footer company={data} />
       </main>
     </div>
   )
